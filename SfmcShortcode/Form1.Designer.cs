@@ -258,6 +258,8 @@
             Controls.Add(label1);
             Controls.Add(lstChange);
             Controls.Add(lstShortcodes);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Marketing Cloud Shortcodes";

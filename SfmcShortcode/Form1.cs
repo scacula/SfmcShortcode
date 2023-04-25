@@ -297,8 +297,6 @@ namespace SfmcShortcode
             try
             {
 
-
-
                 var request = new RestRequest("https://mc6rnt1qcqf78nd3jvzt54rvp9l0.rest.marketingcloudapis.com/messaging/v1/sms/definitions/" + definitionKey.Trim(), Method.Delete);
                 request.AddHeader("Authorization", "Bearer " + accesstoken);
                 request.AddHeader("Content-Type", "application/json");
